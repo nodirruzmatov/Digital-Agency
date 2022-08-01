@@ -1,0 +1,105 @@
+.hiro {
+
+  padding-top: 68px;
+  padding-bottom: 32px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__heading {
+    margin-bottom: 30px;
+    max-width: 732px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  &__heading > span {
+    color: #165DF5;
+  }
+
+  &__desc {
+    max-width: 717px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__btn {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 49px;
+    padding: 11px 24px;
+    background: #165DF5;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__btn::after {
+    vertical-align: middle;
+    margin-left: 10px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/images/next.png);
+
+  }
+
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 184px;
+    padding-bottom: 146px;
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 12px;
+    background-image: url(../../assets/images/bg_hiro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hino__title {
+    max-width: 709px;
+    margin-bottom: 22px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .hiro__text {
+    max-width: 717px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+
+  }
+}
